@@ -24,7 +24,7 @@ ENTITY_SPEED = {
     'Level2Bg2': 2,
     'Level2Bg3': 3,
     'Level2Bg4': 4,
-    'Level3Bg0': 0,  # Novo fundo para Level 3
+    'Level3Bg0': 0, 
     'Level3Bg1': 1,
     'Level3Bg2': 2,
     'Level3Bg3': 3,
