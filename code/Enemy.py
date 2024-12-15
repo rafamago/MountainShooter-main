@@ -19,7 +19,7 @@ class Enemy(Entity):
     def move(self):
         if self.name == 'Enemy3':
             if self.rect.bottom >= WIN_HEIGHT:
-                self.vertical_Speed = ENTITY_SPEED ['Enemy3vertical']
+                self.vertical_Speed = -ENTITY_SPEED ['Enemy3vertical']
             elif self.rect.top <= 0:
                 self.vertical_Speed = 2 * ENTITY_SPEED ['Enemy3vertical']
 
