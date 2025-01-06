@@ -24,7 +24,6 @@ class Menu:
             self.menu_text(50, "Mountain", C_ORANGE, ((WIN_WIDTH / 2), 70))
             self.menu_text(50, "Shooter", C_ORANGE, ((WIN_WIDTH / 2), 120))
             
-            self.menu_text(20, "Rafaela Maria Gomes da Costa : 4288698", C_BLACK, ((WIN_WIDTH / 2), 170))
 
             for i in range(len(MENU_OPTION)):
                 if i == menu_option:
